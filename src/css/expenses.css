@@ -5,3 +5,8 @@
   width: 50rem;
   max-width: 95%;
 }
+.noExpense {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}

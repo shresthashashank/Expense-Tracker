@@ -5,7 +5,7 @@ import ExpenseDate from "./ExpenseDate";
 import Card from "./Card";
 
 function ExpenseItem({ title, amount, date }) {
-  const [titleText, setTitleText] = useState(title);
+  const [titleText] = useState(title);
 
   //We wrapped it in our customer Card component that will get the default
   return (
